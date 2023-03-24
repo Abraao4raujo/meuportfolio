@@ -76,10 +76,12 @@ li{
 }
 
 h1{
-  margin-bottom: 15px;
+  display: inline-block;
+  margin-bottom: 10px;
   margin-top: 58px;
   font-size: 2rem;
   text-transform: capitalize;
+  border-bottom: 2px solid #79AE92;
 }
 
 h1, h2, h3, h4, p{
@@ -103,10 +105,6 @@ p{
   margin-top: 10px;
   margin-left: 90px;
   width: 100%;
-}
-
-.parte-habilidades > h1{
-  text-decoration: underline;
 }
 
 .container-main{
@@ -198,6 +196,10 @@ p{
   grid-gap: 20px;
 }
 
+.parte-portfolio > h1{
+  width: 130px;
+}
+
 .imagem img{
     border-radius: 7px;
     margin-left: 50px;
@@ -214,7 +216,7 @@ p{
 .parte-contato{
   display: block;
   margin-left: 90px;
-  width: 70%;
+  width: 90%;
 }
 
 .container {
@@ -230,7 +232,17 @@ p{
   width: 50%;
 }
 
+.primeiro-link{
+  width: 120px;
+}
+
+.segundo-link{
+  width: 120px;
+  margin-top: 20px;
+}
+
 .card-contato > a{
+  text-decoration: none;
   font-family: 'Roboto', sans-serif;
   color: #404041;
 }
