@@ -6,6 +6,8 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 li > img{
@@ -215,6 +217,23 @@ p{
   width: 70%;
 }
 
+.container {
+  display: flex;
+}
+
+.coluna {
+  width: 50%;
+  padding: 0 10px;
+}
+
+.col-50{
+  width: 50%;
+}
+
+.card-contato > a{
+  font-family: 'Roboto', sans-serif;
+  color: #404041;
+}
 .rodape{
   background-color: #79AE92;
 }
