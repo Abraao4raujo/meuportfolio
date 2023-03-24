@@ -10,29 +10,31 @@
 <body>
   <header>
     <div class="container-header">
+    <nav class="nav">
       <ul class="lista-menu">
         <li class="itens-lista">
           <img src="img/foto-para-documento.jpg" alt="foto-documento" id="foto-perfil">
         </li>
         <div id="lista-informacao">
         <li class="itens-lista">
-          <a href="#">Sobre</a>
+          <a href="#sobre">Sobre</a>
           <span class="linha"></span>
         </li>
         <li class="itens-lista">
-          <a href="#">Experiências</a>
+          <a href="#experiencia">Experiências</a>
           <span class="linha"></span>
         </li>
         <li class="itens-lista">
-          <a href="#">Portfólio</a>
+          <a href="#portfolio">Portfólio</a>
           <span class="linha"></span>
         </li>
         <li class="itens-lista">
-          <a href="#">Contato</a>
+          <a href="#contato">Contato</a>
           <span class="linha"></span>
         </li>
         </div>
       </ul>
+      </nav>
     </div>
   </header>
   <main class="container-main">
@@ -45,7 +47,7 @@
         </p>
       </div>
     </div>
-    <div class="habilidades">
+    <div class="habilidades" id="experiencia">
       <div class="parte-habilidades">
         <h1>Habilidades</h1>
         <div class="reta">
@@ -93,7 +95,7 @@
       </div>
     </div>
     </div>
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
       <div class="parte-portfolio">
         <h1>Portfólio</h1>
         <span class="reta"></span>
@@ -125,16 +127,29 @@
         </div>
       </div>
     </div>
-    <div class="contato">
+    <div class="contato" id="contato">
       <div class="parte-contato">
         <h1>Contatos</h1>
         <span class="reta"></span>
-        <div class="card-contato">
-          <h3>Email:</h3>
-          <p>a68816619@gmail.com</p>
-          <h3>Telefone</h3>
-          <p>+55 82 999705098</p>
+        <div class="container">
+          <div class="coluna">
+            <div class="card-contato">
+              <h3>Email:</h3>
+              <p>a68816619@gmail.com</p>
+              <h3>Telefone</h3>
+              <p>+55 82 999705098</p>
+            </div>
+          </div>
+          <div class="coluna">
+            <div class="card-contato">
+              <h3>GitHub</h3>
+              <a href="https://github.com/Abraao4raujo" target="_blank">GitHub</a>
+              <h3>LinkedIn</h3>
+              <a href="https://www.linkedin.com/in/abraao4raujo/" target="_blank">LinkedIn</a>
+            </div>
+          </div>
         </div>
+
       </div>
     </div>
   </main>
@@ -144,5 +159,6 @@
       <h4>Designed by Abraão Araujo</h4>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
