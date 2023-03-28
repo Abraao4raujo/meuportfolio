@@ -8,34 +8,19 @@
   <title>Portfólio</title>
 </head>
 <body>
-  <header>
-    <div class="container-header">
-    <nav class="nav">
-      <ul class="lista-menu">
-        <li class="itens-lista">
-          <img src="img/foto-para-documento.jpg" alt="foto-documento" id="foto-perfil">
-        </li>
-        <div id="lista-informacao">
-        <li class="itens-lista">
-          <a href="#sobre">Sobre</a>
-          <span class="linha"></span>
-        </li>
-        <li class="itens-lista">
-          <a href="#experiencia">Experiências</a>
-          <span class="linha"></span>
-        </li>
-        <li class="itens-lista">
-          <a href="#portfolio">Portfólio</a>
-          <span class="linha"></span>
-        </li>
-        <li class="itens-lista">
-          <a href="#contato">Contato</a>
-          <span class="linha"></span>
-        </li>
-        </div>
+  <header id="header">
+    <img src="img/foto-para-documento.jpg" alt="minha-foto" class="minha-foto">
+    <nav id="nav">
+      <button id="btnMobile" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu 
+        <span id="hamburguer"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidade">Habilidade</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
-      </nav>
-    </div>
+    </nav>
   </header>
   <main class="container-main">
     <div class="parte-sobre">
@@ -47,32 +32,32 @@
         </p>
       </div>
     </div>
-    <div class="habilidades" id="experiencia">
+    <div class="habilidades" id="habilidade">
       <div class="parte-habilidades">
         <h1>Habilidades</h1>
         <div class="reta">
           <div class="parte-habilidades-linha">
             <p>HTML</p>
             <div class="bar">
-              <div class="progress-bar" style="width: 200px;"></div>
+              <div class="progress-bar" style="width: 69%;"></div>
             </div>
             <p>CSS</p>
             <div class="bar">
-              <div class="progress-bar" style="width: 160px;"></div>
+              <div class="progress-bar" style="width: 56%;"></div>
             </div>
             <p>JavaScript</p>
             <div class="bar">
-              <div class="progress-bar" style="width: 230px;"></div>
+              <div class="progress-bar" style="width: 75%;"></div>
             </div>
           </div>
           <div class="parte-habilidades-linha-2">
             <p>NodeJS</p>
             <div class="bar">
-              <div class="progress-bar" style="width: 100px;"></div>
+              <div class="progress-bar" style="width: 37%;"></div>
             </div>
             <p>MySql</p>
             <div class="bar">
-              <div class="progress-bar" style="width: 130px;"></div>
+              <div class="progress-bar" style="width: 25%;"></div>
             </div>
           </div>
         </div>
@@ -166,6 +151,7 @@
       <h4>Designed by Abraão Araujo</h4>
     </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
