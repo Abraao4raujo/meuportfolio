@@ -35,7 +35,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #e7e7e7;
+  background: #79AE92;
 }
 
 #menu {
@@ -285,7 +285,7 @@ p{
     width: 100%;
     top:5.4375rem;
     right: 0rem;
-    background: #e7e7e7;
+    background: #79AE92;
     transition: .6s;
     z-index: 1000;
     height: 0rem;
