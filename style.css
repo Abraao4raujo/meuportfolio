@@ -263,6 +263,19 @@ p{
   margin-top: 0rem;
 }
 
+/* animacao scroll */
+.js-scroll{
+  opacity: 0;
+  transform: translate3d(-30px, 0, 0);
+  transition: .3s;
+
+}
+
+.js-scroll.ativo{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
 /* inicio estilo-responsivo */
 @media (max-width: 1030px){
   .imagem img{
