@@ -23,5 +23,19 @@ function toggleMenu(event) {
   }
 }
 
+/*scroll animacao*/
+const sections = document.querySelectorAll('.js-scroll')
+
+function animaScroll() {
+  sections.forEach((section) => {
+    const sectionTop = section.getBoundingClientRect().top - 500
+    if(sectionTop < 0){
+      section.classList.add('ativo')
+    }
+  })
+}
+
+window.addEventListener('scroll', animaScroll)
+
 btnMobile.addEventListener('click', toggleMenu)
 btnMobile.addEventListener('touchstart', toggleMenu)
